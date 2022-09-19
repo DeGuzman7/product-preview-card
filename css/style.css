@@ -70,7 +70,7 @@ img{
 .text-content-container h4{
     font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
 }
 .price{
     display: flex;
@@ -130,21 +130,39 @@ button:hover{
     .text-content-container{
         padding: 2rem;
         width:100%;
-        max-height:100%;
-        display: grid;
+        height: 50%;
+
         border-radius:0 0 8px 8px;
+        display: inline-block;
         
+    }
+    .text-content-container h1{
+        padding-top: 1rem;
+        font-size: 3.2rem;
+        
+
+    }
+    .text-content-container p{
+        padding-top: 2rem;
+    
+    
+    }
+    .price{
+        padding-top: 2rem;
+        padding-bottom:2rem;
+        align-items: center;
+
+    }
+    .price h1{
+        padding-top: 0;
+    }
+    button{
+        padding: 2rem 5rem;
+        width: 100%;
     }
     .attribution{
         margin-top: 2rem;
     }
     
     
-}
-@media(max-width:375px){
-  
-    .text-content-container h1{
-        font-size: 3.2rem;
-        
-    }
 }
