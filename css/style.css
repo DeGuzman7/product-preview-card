@@ -46,7 +46,10 @@ img{
 }
 .img-container img{
     height: 100%;
-    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    
+
     border-radius: 8px 0 0 8px;
 }
 .img2{
@@ -97,6 +100,7 @@ button:hover{
 }
 .attribution{
     text-align: center;
+    font-size: 1.1rem;
 }
 
 @media(max-width:428px){
